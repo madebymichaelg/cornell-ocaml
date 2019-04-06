@@ -1,0 +1,1 @@
+let divide n d = n/.d;;
