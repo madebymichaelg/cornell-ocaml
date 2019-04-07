@@ -1,0 +1,7 @@
+### Starting build.
+# Target: add_test.ml.depends, tags: { package(oUnit), extension:ml, file:add_test.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package oUnit -modules add_test.ml > add_test.ml.depends
++ ocamlfind ocamldep -package oUnit -modules add_test.ml > add_test.ml.depends
+ocamlfind: Package `oUnit' not found
+Command exited with code 2.
+# Compilation unsuccessful.
