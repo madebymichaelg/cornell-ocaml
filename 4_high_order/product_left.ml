@@ -1,0 +1,1 @@
+let product_left l = List.fold_left (fun x a -> a*.x) 1.0 l
