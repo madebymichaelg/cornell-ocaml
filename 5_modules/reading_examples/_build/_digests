@@ -1,0 +1,6 @@
+"Resource: /Users/michaelgasparovic/code/ocmal-cornell/5_modules/reading_examples/mystack.mli": "\130$\211\t\166\014\227@\026\159Y\012T\253Q\142"
+"Rule: ocaml dependencies ml (%=mystack )": "db\168\237\231W\020\240\233:\006\183\236\005\194R"
+"Rule: ocaml: mli -> cmi (%=mystack )": "\001\212\253\002V\181U/\194]^\174)\212'-"
+"Resource: /Users/michaelgasparovic/code/ocmal-cornell/5_modules/reading_examples/mystack.ml": "\240\186\016\211\152Q\0114\\\214\000Y\222\178)'"
+"Rule: ocaml: ml & cmi -> cmo (%=mystack )": "\233(V\201x\231\229|\199h\015\143\210M\157s"
+"Rule: ocaml dependencies mli (%=mystack )": "'K\136\156\238\173\1810;\186\154\185W~\128k"

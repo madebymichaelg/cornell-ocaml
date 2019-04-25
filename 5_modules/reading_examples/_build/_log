@@ -1,0 +1,10 @@
+### Starting build.
+# Target: mystack.mli.depends, tags: { extension:mli, file:mystack.mli, ocaml, ocamldep, quiet }
+ocamldep.opt -modules mystack.mli > mystack.mli.depends
+# Target: mystack.cmi, tags: { byte, compile, extension:mli, file:mystack.mli, interf, ocaml, quiet }
+ocamlc.opt -c -o mystack.cmi mystack.mli
+# Target: mystack.ml.depends, tags: { extension:ml, file:mystack.ml, ocaml, ocamldep, quiet }
+ocamldep.opt -modules mystack.ml > mystack.ml.depends
+# Target: mystack.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:mystack.cmo, file:mystack.ml, implem, ocaml, quiet }
+ocamlc.opt -c -o mystack.cmo mystack.ml
+# Compilation successful.

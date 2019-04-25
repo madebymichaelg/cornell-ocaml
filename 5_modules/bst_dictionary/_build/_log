@@ -1,0 +1,21 @@
+### Starting build.
+# Target: dictionary.mli.depends, tags: { extension:mli, file:dictionary.mli, ocaml, ocamldep, quiet }
+ocamldep.opt -modules dictionary.mli > dictionary.mli.depends # cached
+# Target: dictionary.cmi, tags: { byte, compile, extension:mli, file:dictionary.mli, interf, ocaml, quiet }
+ocamlc.opt -c -o dictionary.cmi dictionary.mli # cached
+# Target: dictionary.ml.depends, tags: { extension:ml, file:dictionary.ml, ocaml, ocamldep, quiet }
+ocamldep.opt -modules dictionary.ml > dictionary.ml.depends
+# Target: dictionary.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:dictionary.cmo, file:dictionary.ml, implem, ocaml, quiet }
+ocamlc.opt -c -o dictionary.cmo dictionary.ml
++ ocamlc.opt -c -o dictionary.cmo dictionary.ml
+File "dictionary.ml", line 1:
+Error: The implementation dictionary.ml
+       does not match the interface dictionary.cmi:
+       Values do not match:
+         val lookup : 'a -> ('b * exn) tree -> exn
+       is not included in
+         val lookup : 'k -> ('k, 'v) t -> 'v
+       File "dictionary.mli", line 13, characters 0-35: Expected declaration
+       File "dictionary.ml", line 16, characters 4-10: Actual declaration
+Command exited with code 2.
+# Compilation unsuccessful.

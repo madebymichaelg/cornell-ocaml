@@ -1,0 +1,7 @@
+"Rule: ocaml dependencies ml (%=dictionary )": "\207X\177\175Ve\220\196,a.\204x\189T\129"
+"Rule: ocaml: cmo* -> byte (%=dictionary )": "D6\215\227\r\015\023e\139\222`P?\210\163s"
+"Rule: ocaml dependencies mli (%=dictionary )": "\135_U\242\025\219\215r\170\225\170Kc>5\143"
+"Resource: /Users/michaelgasparovic/code/ocmal-cornell/5_modules/bst_dictionary/dictionary.ml": "\171\179Zl\133\248\180\168\162*\136H=s\023D"
+"Rule: ocaml: mli -> cmi (%=dictionary )": "_+\151\186\218\194\177\220:P*\001l\138\148["
+"Rule: ocaml: ml & cmi -> cmo (%=dictionary )": "\b\244\255\229\157\005\205'\185\247v\2187\141\007b"
+"Resource: /Users/michaelgasparovic/code/ocmal-cornell/5_modules/bst_dictionary/dictionary.mli": "P\178y.)I\024)\004\247\029$M\242\228\021"
