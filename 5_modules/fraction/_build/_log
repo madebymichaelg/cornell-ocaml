@@ -1,0 +1,15 @@
+### Starting build.
+# Target: fraction.mli.depends, tags: { extension:mli, file:fraction.mli, ocaml, ocamldep, quiet }
+ocamldep.opt -modules fraction.mli > fraction.mli.depends # cached
+# Target: fraction.cmi, tags: { byte, compile, extension:mli, file:fraction.mli, interf, ocaml, quiet }
+ocamlc.opt -c -o fraction.cmi fraction.mli # cached
+# Target: fraction.ml.depends, tags: { extension:ml, file:fraction.ml, ocaml, ocamldep, quiet }
+ocamldep.opt -modules fraction.ml > fraction.ml.depends
+# Target: fraction.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:fraction.cmo, file:fraction.ml, implem, ocaml, quiet }
+ocamlc.opt -c -o fraction.cmo fraction.ml
++ ocamlc.opt -c -o fraction.cmo fraction.ml
+File "fraction.ml", line 15, characters 26-39:
+Error: This expression has type int * int
+       This is not a function; it cannot be applied.
+Command exited with code 2.
+# Compilation unsuccessful.

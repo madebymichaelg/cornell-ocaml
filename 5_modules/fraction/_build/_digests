@@ -1,0 +1,7 @@
+"Rule: ocaml: mli -> cmi (%=fraction )": "\197\003\213 \014\224\215j\147\003/\n\229-9\175"
+"Rule: ocaml dependencies ml (%=fraction )": "~\211c\002\t\171\241\005\170\2086dY)\194Q"
+"Rule: ocaml: ml & cmi -> cmo (%=fraction )": "@J4d\000\211\177\017\155\028?\t\147\134s\183"
+"Rule: ocaml: cmo* -> byte (%=fraction )": "\151bE\222\".}\002\011@\136!}N\231["
+"Resource: /Users/michaelgasparovic/code/ocmal-cornell/5_modules/fraction/fraction.mli": "$\216B\235\221:&\220\252%I\r\201%ME"
+"Resource: /Users/michaelgasparovic/code/ocmal-cornell/5_modules/fraction/fraction.ml": "\251\188<\165\171\157`*a\0030\200\202\201+\r"
+"Rule: ocaml dependencies mli (%=fraction )": "\204j\217L\132\\\020a\203T\007\221E\146(Z"
