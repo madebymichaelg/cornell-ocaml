@@ -1,0 +1,10 @@
+### Starting build.
+# Target: date.mli.depends, tags: { extension:mli, file:date.mli, ocaml, ocamldep, quiet }
+ocamldep.opt -modules date.mli > date.mli.depends # cached
+# Target: date.cmi, tags: { byte, compile, extension:mli, file:date.mli, interf, ocaml, quiet }
+ocamlc.opt -c -o date.cmi date.mli # cached
+# Target: date.ml.depends, tags: { extension:ml, file:date.ml, ocaml, ocamldep, quiet }
+ocamldep.opt -modules date.ml > date.ml.depends
+# Target: date.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:date.cmo, file:date.ml, implem, ocaml, quiet }
+ocamlc.opt -c -o date.cmo date.ml
+# Compilation successful.

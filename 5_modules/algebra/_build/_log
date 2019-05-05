@@ -1,0 +1,6 @@
+### Starting build.
+# Target: algebra.ml.depends, tags: { extension:ml, file:algebra.ml, ocaml, ocamldep, quiet }
+ocamldep.opt -modules algebra.ml > algebra.ml.depends
+# Target: algebra.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:algebra.cmo, file:algebra.ml, implem, ocaml, quiet }
+ocamlc.opt -c -o algebra.cmo algebra.ml
+# Compilation successful.

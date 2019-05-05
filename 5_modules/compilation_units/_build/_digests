@@ -1,0 +1,7 @@
+"Rule: ocaml: mli -> cmi (%=date )": "\171\146\197\178\178\1379\201\129\170\"\226\206\179\172)"
+"Resource: /Users/michaelgasparovic/code/ocmal-cornell/5_modules/compilation_units/date.mli": "y\189\187\006yg\128N\202\2274f\006\028\245\252"
+"Rule: ocaml: ml & cmi -> cmo (%=date )": "l\2405\142\141\134\202\003b\228\254\244,r\208\146"
+"Rule: ocaml: ml -> cmo & cmi (%=date )": "-\025j\016\165%\203j2\222\246l#\031\241|"
+"Rule: ocaml dependencies ml (%=date )": "\246m\223\241y\205\245\143\2483\154\232*\\F\171"
+"Rule: ocaml dependencies mli (%=date )": "\240X\159\241\213\158\185?7j\244d\002\220\159Y"
+"Resource: /Users/michaelgasparovic/code/ocmal-cornell/5_modules/compilation_units/date.ml": "\222\133\019\196\181C\152\139\199\173\240\014Nq\0289"

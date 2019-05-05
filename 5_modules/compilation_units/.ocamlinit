@@ -1,0 +1,3 @@
+#directory "_build";;
+#load "date.cmo";;
+#install_printer Date.format;;
